@@ -1,0 +1,79 @@
+.header .wrapper-top {
+    background: #20242d;
+}
+
+.header .address {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #ffffff;
+}
+.header .contacts a {
+    font-family: Gilroy;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.header .navigation a {
+    font-family: Gilroy;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-decoration: none;
+}
+.header .navigation .active {
+    color: #ff7129;
+}
+.start-screen {
+    background: red;
+}
+
+.start-screen .mait-title {
+    font-family: Gilroy;
+    font-size: 92px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 111px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.start-screen .slogan {
+    font-family: Gilroy;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+.start-screen .btn {
+    height: 49px;
+    width: 187px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+    background: #ff7129;
+    box-shadow: 0px 4px 28px rgba(255, 113, 41, 0.29);
+    font-family: Gilroy;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #ffffff;
+}
+.start-screen .btn-scroll {
+    background: rgba(123, 126, 133, 0.4);
+}
