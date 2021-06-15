@@ -4,13 +4,14 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="css/style.css"/>
+        <link rel="stylesheet" href="css/style.css" />
         <title>Webnauts project</title>
     </head>
     <body>
         <header class="header">
             <div class="wrapper-top">
-                <adress
+                <div class="container">
+                <span class="address"
                     >Dąbrówka Wielkopolska, ul. Główna 53, 66-210
                     Zbąszynek</adress
                 >
@@ -22,25 +23,24 @@
                             height="14"
                             alt="icon"
                         />
-                        <!--<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M1.75002 1.75H12.25C12.4047 1.75 12.5531 1.81146 12.6625 1.92085C12.7719 2.03025 12.8334 2.17862 12.8334 2.33333V11.6667C12.8334 11.8214 12.7719 11.9697 12.6625 12.0791C12.5531 12.1885 12.4047 12.25 12.25 12.25H1.75002C1.59531 12.25 1.44694 12.1885 1.33754 12.0791C1.22815 11.9697 1.16669 11.8214 1.16669 11.6667V2.33333C1.16669 2.17862 1.22815 2.03025 1.33754 1.92085C1.44694 1.81146 1.59531 1.75 1.75002 1.75ZM7.03502 6.81508L3.29469 3.63883L2.53927 4.52783L7.0426 8.35158L11.4649 4.52492L10.7019 3.64233L7.0356 6.81508H7.03502Z" fill="#FF7129"/>
-</svg>-->
                         <a href="dorotapawezka@gmail.com"
                             >dorotapawezka@gmail.com</a
                         >
                     </li>
                     <li>
                         <img
-                        src="img/vector_1.svg"
-                        width="14"
-                        height="14"
-                        alt="icon"
-                    />
+                            src="img/vector_1.svg"
+                            width="14"
+                            height="14"
+                            alt="icon"
+                        />
                         <a href="tel:+48695716531"> +48695716531</a>
                     </li>
-                </ul>
+                </ul></span>
             </div>
+        </div>
             <div class="wrapper-bottom">
+                <div class="container">
                 <a href="#">
                     <img
                         src="img/logo_1.png"
@@ -52,7 +52,9 @@
                 <nav class="navigation">
                     <ul>
                         <li>
-                            <a class="active" href="#"> &mdash; Storona glowna &mdash;</a>
+                            <a class="active" href="#">
+                                &mdash; Storona glowna &mdash;</a
+                            >
                         </li>
                         <li>
                             <a href="#"> O nas</a>
@@ -69,24 +71,31 @@
                     </ul>
                 </nav>
             </div>
+        </div>
         </header>
         <main>
             <section class="start-screen">
+                <div class="container">
+
                 <h1 class="mait-title">Panele Fotowoltaiczne</h1>
                 <p class="slogan">
                     Kompleksowe usługi w zakresie montażu i podłączenia paneli
                     słonecznych.
                 </p>
-                <button class="btn">Obliczyć koszt</button>
+                <button class="btn">Obliczyć koszt</button><br>
                 <button class="btn-scroll">
-                    <img src="#" width="50" height="50" alt="scroll btn" />
+                    <a href="#">
+                    <img  src="img/scroll.svg" width="50" height="50" alt="scroll btn" />
+                </a>
                 </button>
+                </div>
             </section>
             <section class="main-info">
+                <div class="container">
                 <img
                     src="img/main_photo.jpg"
-                    width="200"
-                    height="200"
+                    width="800"
+                    height="600"
                     alt="some img"
                 />
                 <div class="content">
@@ -107,9 +116,11 @@
                         to zrobić.
                     </p>
                 </div>
+                </div>
             </section>
         </main>
-        <footer>
+        <footer class="fotter">
+            <div class="container">
             <div class="wrapper-top">
                 <a href="#">
                     <img
@@ -122,7 +133,7 @@
                 <nav class="navigation">
                     <ul>
                         <li>
-                            <a href="#">Strona główna</a>
+                            <a class="active"  href="#">Strona główna</a>
                         </li>
                         <li>
                             <a href="#">O nas</a>
@@ -138,13 +149,15 @@
                         </li>
                     </ul>
                 </nav>
-                <button class="btn btn-dark">Oddzwoń</button>
+                <button class="btn_btn-dark">Oddzwoń</button>
             </div>
-            <hr />
+            <img src="img/rect.png" alt="rect">
+ 
             <div class="wrapper-bottom">
                 <a href="#" class="privace">Polityka prywatności</a>
                 <a href="#" class="secur-data">Ochrona danych osobowych</a>
             </div>
+        </div>
         </footer>
     </body>
 </html>
